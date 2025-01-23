@@ -1,6 +1,8 @@
 :root {
-
+    --height-img: auto;
+    --text-align: center;
 }
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -18,7 +20,7 @@ h1 {
 
 main img {
     width: 150px;
-    height: auto;
+    height: var(--height-img);
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -39,16 +41,16 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height-img);
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid black;
-    text-align: center;
+    text-align: var(--text-align);
 }
