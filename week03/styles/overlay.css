@@ -17,6 +17,7 @@ h2 {
 
 .herodiv {
 	margin: 10px auto;
+	position: relative;
 }
 
 .herodiv img {
