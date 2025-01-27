@@ -24,7 +24,7 @@ article {
     background-color: var(--secondary-color);
 }
 
-.hero {
+.hero div {
     position: relative;
 }
 
@@ -37,7 +37,7 @@ article {
 
 }
 
-.hero img {
+.hero div img {
     display: block;
     width: 100%;
     height: auto;
@@ -53,11 +53,15 @@ article {
     float: right;
 }
 
-.hero article p {
+.hero p {
     position: absolute;
     top: 50px;
 }
 
 section img {
     width: 100%;
+}
+
+footer {
+    text-decoration: var(--text-decoration);
 }
