@@ -1,30 +1,37 @@
 :root {
-    --primary-color: 3D5467;
-    --secondary-color: f1edee;
-    --accent1-color: 686963;
-    --accent2-color: 6f1a07;
+    --primary-color: #3D5467;
+    --secondary-color: #f1edee;
+    --accent1-color: #686963;
+    --accent2-color: #6f1a07;
     --text-decoration: none;
 }
 
 h1, h2 {
     color: var(--primary-color);
-    font-family: "Kanit" serif;
+    font-family: "Kanit";
 }
 
 div img {
     display: block;
+    width: 100%;
+}
+
+.hero {
     position: relative;
 }
 
-div h1 {
+.hero h1 {
     position: absolute;
     color: red;
     top: 1rem;
+    right: 50%;
+    text-align: center;
 
 }
 
-article img {
+.hero article img {
     position: absolute;
+    width: 200px;
 }
 
 section img {
