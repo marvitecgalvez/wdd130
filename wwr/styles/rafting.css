@@ -1,0 +1,32 @@
+:root {
+    --primary-color: 3D5467;
+    --secondary-color: f1edee;
+    --accent1-color: 686963;
+    --accent2-color: 6f1a07;
+    --text-decoration: none;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+    font-family: "Kanit" serif;
+}
+
+div img {
+    display: block;
+    position: relative;
+}
+
+div h1 {
+    position: absolute;
+    color: red;
+    top: 1rem;
+
+}
+
+article img {
+    position: absolute;
+}
+
+section {
+    width: 100%;
+}
