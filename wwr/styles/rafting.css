@@ -12,7 +12,7 @@ header a {
 
 h1, h2 {
     color: var(--primary-color);
-    font-family: "Kanit";
+    font-family: "Kanit", serif;
 }
 
 div img {
