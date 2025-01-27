@@ -6,6 +6,10 @@
     --text-decoration: none;
 }
 
+header a {
+    text-decoration: var(--text-decoration);
+}
+
 h1, h2 {
     color: var(--primary-color);
     font-family: "Kanit";
@@ -14,6 +18,10 @@ h1, h2 {
 div img {
     display: block;
     width: 100%;
+}
+
+article {
+    background-color: var(--secondary-color);
 }
 
 .hero {
@@ -29,9 +37,25 @@ div img {
 
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+}
+
 .hero article img {
     position: absolute;
     width: 200px;
+    float: right;
+}
+
+.hero article p {
+    position: absolute;
+    top: 50px;
 }
 
 section img {
