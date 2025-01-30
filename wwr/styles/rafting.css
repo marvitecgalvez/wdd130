@@ -10,9 +10,17 @@ header a {
     text-decoration: var(--text-decoration);
 }
 
+body {
+    max-width: 1000px;
+}
+
 h1, h2 {
     color: var(--primary-color);
     font-family: "Kanit", serif;
+}
+
+p {
+    color: var(--primary-color);
 }
 
 div h1 {
@@ -25,15 +33,10 @@ div h1 {
     padding: 1% 50px;
 }
 
-div img {
-    width: 100%;
-    height: auto;
-}
-
 div article {
     position: absolute;
-    background-color: var(--accent1-color);
-    top: 10rem;
+    background-color: var(--secondary-color);
+    top: 8rem;
     left: 10%;
     right: 10%;
     padding: 1rem;
@@ -53,6 +56,14 @@ div article img {
 section img {
     width: 100%;
 }
+
+
+
+.hero > img {
+    width: 100%;
+    height: auto;
+}
+
 
 footer {
     text-decoration: var(--text-decoration);
