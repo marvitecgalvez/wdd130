@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #3D5467;
+    --primary-color: #3d5467;
     --secondary-color: #f1edee;
     --accent1-color: #686963;
     --accent2-color: #6f1a07;
@@ -15,47 +15,39 @@ h1, h2 {
     font-family: "Kanit", serif;
 }
 
-div img {
-    display: block;
-    width: 100%;
-}
-
-article {
-    background-color: var(--secondary-color);
-}
-
-.hero div {
-    position: relative;
-}
-
-.hero h1 {
+div h1 {
     position: absolute;
-    color: red;
     top: 1rem;
-    right: 50%;
-    text-align: center;
-
+    left: 0;
+    right: 0;
+    background-color: var(--secondary-color);
+    opacity: 0.75;
+    padding: 1% 50px;
 }
 
-.hero div img {
-    display: block;
+div img {
     width: 100%;
     height: auto;
 }
 
-.hero article {
+div article {
     position: absolute;
+    background-color: var(--accent1-color);
+    top: 10rem;
+    left: 10%;
+    right: 10%;
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.5);
 }
 
-.hero article img {
-    position: absolute;
-    width: 200px;
+div article img {
+    width: 150px;
+    height: auto;
     float: right;
 }
 
-.hero p {
-    position: absolute;
-    top: 50px;
+.hero {
+    position: relative;
 }
 
 section img {
