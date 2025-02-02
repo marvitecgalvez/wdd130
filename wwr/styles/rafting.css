@@ -6,8 +6,24 @@
     --text-decoration: none;
 }
 
+
+
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 header a {
     text-decoration: var(--text-decoration);
+    display: block;
+    padding: 15px;
 }
 
 body {
@@ -53,17 +69,28 @@ div article img {
     position: relative;
 }
 
-section img {
-    width: 100%;
-}
-
-
 
 .hero > img {
     width: 100%;
     height: auto;
 }
 
+/* History Section*/
+
+main section {
+    display: block;
+    position: relative;
+}
+
+
+/* Adventure Awaits You Section */
+
+section img {
+    width: 100%;
+}
+
+
+/* Footer Section */
 
 footer {
     text-decoration: var(--text-decoration);
