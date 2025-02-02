@@ -80,7 +80,7 @@ div article img {
 
 /* History Section*/
 
-main section {
+.historygroup {
     display: block;
     position: relative;
 }
