@@ -85,36 +85,20 @@ div article img {
 .historygroup {
     width: 100%;
     display: flex;
-    border: 50px;
-    border-color: red;
-    /*justify-content: space-between;*/
     align-items: center;
-
-    /*text-align: left;*/
-    border-color: red;
-    border: 5px;
 }
 
 .historygroup h2 {
-    color: red;
-    /*grid-column: 2 / 3;*/
-    /*top: 1rem;*/
     left: 0;
     right: 0;
 }
 
 .historygroup article {
-    /*display: grid;*/
-    /*grid-template: 2 3 / 1 4;*/
-    /*grid-template-columns: 1fr 150px 1fr;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
+    text-justify: distribute;
 }
 
 .historygroup p {
-    /*position: absolute;
-    display: grid;
-    font-size: 1rem;*/
+    font-size: 1rem;
 }
 
 
