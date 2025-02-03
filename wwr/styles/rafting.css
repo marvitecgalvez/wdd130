@@ -84,17 +84,17 @@ div article img {
 
 .historygroup {
     width: 100%;
-    display: flex;
     align-items: center;
 }
 
 .historygroup h2 {
+    justify-self: center;
     left: 0;
     right: 0;
 }
 
 .historygroup article {
-    text-justify: distribute;
+    display: flex;
 }
 
 .historygroup p {
@@ -106,6 +106,10 @@ div article img {
 
 .adventure {
     width: 100%;
+}
+
+.adventure h2 {
+    justify-self: center;
 }
 
 .adventure div {
@@ -127,4 +131,14 @@ div article img {
 
 footer {
     text-decoration: var(--text-decoration);
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+footer nav {
+    justify-content: space-around;
+}
+
+footer a {
+    padding: 15px;
 }
