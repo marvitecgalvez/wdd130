@@ -105,8 +105,7 @@ div article img {
 /* Adventure Awaits You Section */
 
 .adventure {
-    display: block;
-    /*width: 100%;*/
+    width: 100%;
 }
 
 .adventure div {
@@ -116,13 +115,8 @@ div article img {
 }
 
 .adventure img {
-    /*position: absolute;*/
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
     width: 150px;
     height: 100px;
-    padding: auto;
-    /*position: absolute;*/
 }
 
 .adventure figcaption {
