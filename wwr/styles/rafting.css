@@ -80,18 +80,70 @@ div article img {
 
 /* History Section*/
 
+
+
 .historygroup {
-    display: block;
-    position: relative;
+    width: 100%;
+    display: flex;
+    border: 50px;
+    border-color: red;
+    /*justify-content: space-between;*/
+    align-items: center;
+
+    /*text-align: left;*/
+    border-color: red;
+    border: 5px;
+}
+
+.historygroup h2 {
+    color: red;
+    /*grid-column: 2 / 3;*/
+    /*top: 1rem;*/
+    left: 0;
+    right: 0;
+}
+
+.historygroup article {
+    /*display: grid;*/
+    /*grid-template: 2 3 / 1 4;*/
+    /*grid-template-columns: 1fr 150px 1fr;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+
+.historygroup p {
+    /*position: absolute;
+    display: grid;
+    font-size: 1rem;*/
 }
 
 
 /* Adventure Awaits You Section */
 
-section img {
-    width: 100%;
+.adventure {
+    display: block;
+    /*width: 100%;*/
 }
 
+.adventure div {
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.adventure img {
+    /*position: absolute;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    width: 150px;
+    height: 100px;
+    padding: auto;
+    /*position: absolute;*/
+}
+
+.adventure figcaption {
+    text-align: center;
+}
 
 /* Footer Section */
 
