@@ -158,5 +158,35 @@ footer a {
 }
 
 .tittles h1, h2 {
-    color: red;
+    color: rgb(116, 95, 209);
+    text-align: center;
+}
+
+.infocompany {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.infocompany div {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    margin: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    width: 700px;
+    align-items: center;
+}
+
+fieldset {
+
 }
