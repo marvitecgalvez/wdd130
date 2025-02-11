@@ -142,3 +142,21 @@ footer nav {
 footer a {
     padding: 15px;
 }
+
+.happy {
+    width: 100%;
+    display: flex;
+}
+
+.happy img {
+    width: 8rem;
+    height: 7rem;
+}
+
+.happy figcaption {
+    text-align: center;
+}
+
+.tittles h1, h2 {
+    color: red;
+}
