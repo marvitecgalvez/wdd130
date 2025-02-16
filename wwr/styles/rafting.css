@@ -6,11 +6,20 @@
     --text-decoration: none;
 }
 
+
+
+body {
+    max-width: 1000px;
+    /*width: 100%;*/
+}
+
 header {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
+    height: auto;
 }
 
 header nav {
@@ -22,10 +31,6 @@ header a {
     text-decoration: var(--text-decoration);
     display: block;
     padding: 15px;
-}
-
-body {
-    max-width: 1000px;
 }
 
 h1 {
@@ -99,13 +104,14 @@ div article img {
 
 .historygroup p {
     font-size: 1rem;
+    padding: 5px;
 }
 
 
 /* Adventure Awaits You Section */
 
 .adventure {
-    width: 100%;
+    max-width: 100%;
 }
 
 .adventure h2 {
@@ -113,7 +119,6 @@ div article img {
 }
 
 .adventure div {
-    /*width: 100%;*/
     display: flex;
     justify-content: space-around;
 }
@@ -217,6 +222,64 @@ button {
     font-size: 1.1rem;
 }
 
-button:hover {
+button:hover, .calling:hover {
     background-color: rgb(52, 138, 52);
 }
+
+.calling {
+    background-color: rgb(0, 106, 226);
+
+}
+
+/*.calling:hover {
+
+}*/
+
+.calling a {
+    text-decoration: var(--text-decoration);
+
+    /*box-sizing: content-box;*/
+    
+    /*margin: 0 auto;*/
+    /*background-color: rgb(0, 186, 233);
+    color: #850202;
+    border: none;
+    border-radius: 1.1rem;
+    padding: 5rem;
+    font-size: 1.1rem;*/
+}
+
+.calling h2 {
+    color: rgb(255, 255, 0);
+    padding: 1.3rem;
+}
+
+
+/*   Articles in Home Page   */
+
+
+.gotrip {
+    width: 100%;
+    align-items: center;
+    display: grid;
+    position: relative;
+}
+
+/*.gotrip section {
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;
+    position: absolute;
+}*/
+
+/*.gotrip article {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2;
+    position: absolute;
+}*/
+
+/*.gotrip p {
+    font-size: 1rem;
+    padding: 5px;
+}*/
